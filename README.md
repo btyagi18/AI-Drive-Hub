@@ -1,6 +1,14 @@
-### 🚀 AI-Drive-Hub – Intelligent Ride Dispatch & Real-Time Reassignment System
+## 🚀 AI-Drive-Hub – Intelligent Ride Dispatch & Real-Time Reassignment System
 
 A smart AI-powered ride dispatch system with real-time location tracking, automatic driver reassignment, and a modern UI.
+
+### 🌍 Live Public URL 
+  
+🔗 https://ai-drive-hub-1.onrender.com/
+
+ Open Browser Tab 1: Select Rider Option
+ 
+ Open Browser  Tab 2: Select Driver Option 
 
 ### 🌟 Overview
 
@@ -140,29 +148,6 @@ MongoDB storage for drivers & ride status
 
 → “New Driver Assigned” toast appears
 → Map shows updated driver location
-
-
-### 🚀 How to Run Locally
-
-1. Clone repo
-   
-git clone https://github.com/yourname/AI-Drive-Hub.git
-
-3. Install backend
-   
-cd backend
-
-npm install
-
-npm run dev
-
-5. Install frontend
-   
-cd frontend
-
-npm install
-
-npm run dev
 
 
 
