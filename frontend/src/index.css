@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+body {
+  background: linear-gradient(135deg, #0F172A, #f0cc97);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Floating Glow Particles */
+.particle {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  filter: blur(2px);
+  animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-40px) translateX(30px); }
+  100% { transform: translateY(0) translateX(0); }
+}
