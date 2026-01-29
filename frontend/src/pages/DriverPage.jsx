@@ -3,7 +3,9 @@ import io from "socket.io-client";
 import toast from "react-hot-toast";
 import MapView from "../components/MapView";
 
-const socket = io("http://127.0.0.1:3000");
+const socket = io("https://ai-drive-hub.onrender.com", {
+  transports: ["websocket"],
+});
 
 export default function DriverPage() {
   const [online, setOnline] = useState(false);
